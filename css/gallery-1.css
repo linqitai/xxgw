@@ -69,7 +69,6 @@
     display: block;
     border-radius: 2px;
 }
-
 .gallery-item .gallery-thumb .gallery-zoom:hover, .gallery-item .gallery-thumb .gallery-link:hover {
     background-color: #ffffff;
     color: #002e5b;
@@ -96,20 +95,19 @@
 .gallery-item:hover .gallery-thumb .gallery-zoom {
     display: block;
     left: 50%;
-    margin-left: -48px;
+    transform: translateX(50%);
 }
 
 .gallery-item:hover .gallery-thumb .gallery-link {
     display: block;
     right: 50%;
-    margin-right: -48px;
 }
 
 .gallery-item .gallery-details {
     text-align: center;
     padding-top: 20px;
     background-color: #fff;
-    bor der: 2px solid #ecf0f1;
+    border: 2px solid #ecf0f1;
     border-top: 0;
     overflow: hidden;
 }
